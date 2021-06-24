@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cdbd8042d2bddb479e6ad992a7f4f46, type: 3}
+  m_Name: B2. Booby Trap
+  m_EditorClassIdentifier: 
+  storyText: 'You stand up, a little groggily, back up to the far edge of the wall
+    and make an almighty sprint towards the door.
+
+    
+
+    And, of course, its
+    booby trapped. Maybe next time you want to ask what the red wires are wrapped
+    around the door.
+
+    
+
+    1. Continue...'
+  nextStates:
+  - {fileID: 11400000, guid: cad787369cc93d245b5f49d4c41dc694, type: 2}
