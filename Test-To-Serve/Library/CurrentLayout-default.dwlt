@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -116,10 +116,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 878, y: 492}
+  m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 255
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,10 +141,10 @@ MonoBehaviour:
     y: 0
     width: 1451
     height: 947
-  m_MinSize: {x: 602, y: 492}
+  m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 256
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,10 +167,10 @@ MonoBehaviour:
     y: 0
     width: 1451
     height: 558
-  m_MinSize: {x: 602, y: 221}
-  m_MaxSize: {x: 12002, y: 4021}
+  m_MinSize: {x: 605, y: 221}
+  m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 66
+  controlID: 257
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 139
+  controlID: 324
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -412,7 +412,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -426,8 +426,8 @@ MonoBehaviour:
       y: 21
       width: 600
       height: 516
-    m_Scale: {x: 0.47424296, y: 0.47424296}
-    m_Translation: {x: 455.27322, y: 258}
+    m_Scale: {x: 0.3125, y: 0.3125}
+    m_Translation: {x: 300, y: 258}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -544.02496
-      width: 1265.1743
-      height: 1088.0499
+      y: -825.6
+      width: 1920
+      height: 1651.2
     m_MinimalGUI: 1
   m_defaultScale: 0.3125
   m_LastWindowPixelSize: {x: 600, y: 537}
@@ -474,9 +474,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 22660000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3cfbffff
+      m_ExpandedIDs: c2dbffff68dcffff5eddfffff2ddffffecdeffff30dfffff92e1ffff9ce1ffff78e2ffffd6e2ffff24e3ffff34e3ffff88e3ffffb4e5fffffae5ffff42e6ffff4ce6ffff28e7ffff86e7ffffd4e7ffffe0e7ffff30e8ffff54eaffff98eafffffaecffff04edffffe0edffff3eeeffff8ceeffff9ceefffff0eefffffcf0ffff42f1ffffa4f3ffffaef3ffff8af4ffffe8f4ffff36f5ffff46f5ffff9af5ffff3cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -711,21 +711,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\Test-To-Serve-Game\Test-To-Serve
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98560000
-    m_LastClickedID: 22168
+    m_SelectedIDs: c4560000
+    m_LastClickedID: 22212
     m_ExpandedIDs: 00000000985600009a5600009c5600009e560000a056000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -754,7 +754,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000985600009a5600009c5600009e560000a0560000
+    m_ExpandedIDs: 00000000985600009a5600009c5600009e560000a056000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000464a0000a44b0000206f0000587300004669000000000000d24f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
